@@ -17,7 +17,7 @@ const Navbar = () => {
       >
         <AiOutlineShopping />
         <span className='cart-item-qty'>{totalQuantities}</span>
-      </button>
+      </button> 
       {showCart && <Cart />}
     </div>
   )
